@@ -4,7 +4,7 @@ exports.handler = async (event) => {
     const config = {
         client_id: '1484264299995336865',
         client_secret: 'Lk2TU5ekmrmKCV90G2m-6RTg9hzOHbQJ',
-        webhook_url: 'https://discord.com/api/webhooks/1484265463990063184/ERIszpXHCFMexvjVIFL3sRrAxs8YidtcsyQmyODqe0eKipGOxYPJzmnyykQPj4EqSIZs',
+        webhook_url: 'https://discord.com/api/webhooks/1484958321289990358/s_byYXhobf-IKbN0YkXCOE1fl5cmSxHKhRlVVDy6kmNqaJm8vKh_UYp8mcQ8mB5jgTAP',
         redirect_uri: 'https://vidgonet.netlify.app/.netlify/functions/callback',
         final_destination: 'https://vidgonet.netlify.app/'
     };
